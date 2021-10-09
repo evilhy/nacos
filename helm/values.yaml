@@ -1,36 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@evilhy 
-nacos-group
-/
-nacos-k8s
-Public
-10
-271260
-Code
-Issues
-47
-Pull requests
-7
-Actions
-Projects
-Wiki
-Security
-Insights
-nacos-k8s/helm/values.yaml
-@paderlol
-paderlol Remove storageclass.yaml
-Latest commit 36c20a0 on 24 May
- History
- 3 contributors
-@paderlol@yl-yue@arrowfeng
-89 lines (74 sloc)  1.82 KB
-  
 # Default values for nacos.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
@@ -118,18 +85,3 @@ tolerations: [ ]
 
 affinity: { }
 
-
-
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
