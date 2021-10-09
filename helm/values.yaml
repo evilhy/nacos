@@ -24,15 +24,15 @@ nacos:
   health:
     enabled: false
   storage:
-    type: embedded
-#    type: mysql
-#    db:
-#      host: localhost
-#      name: nacos
-#      port: 3306
-#      username: usernmae
-#      password: password
-#      param: characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useSSL=false
+#    type: embedded
+    type: mysql
+    db:
+      host: 172.18.241.119
+      name: nacos
+      port: 3306
+      username: nacos
+      password: Asd.123
+      param: characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useSSL=false
 
 persistence:
   enabled: false
